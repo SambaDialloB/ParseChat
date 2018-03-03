@@ -5,7 +5,8 @@ target 'chat' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 	pod 'Parse'
-  # Pods for chat
+	pod 'ParseUI'
+
 
   target 'chatTests' do
     inherit! :search_paths

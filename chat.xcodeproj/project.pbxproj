@@ -17,6 +17,8 @@
 		A22C5A1920489687003A429C /* chatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C5A1820489687003A429C /* chatTests.swift */; };
 		A22C5A2420489687003A429C /* chatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C5A2320489687003A429C /* chatUITests.swift */; };
 		A22C5A3220489803003A429C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C5A3120489803003A429C /* LoginViewController.swift */; };
+		A22C5A342049FFCE003A429C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C5A332049FFCE003A429C /* ChatViewController.swift */; };
+		A22C5A36204A073C003A429C /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C5A35204A073C003A429C /* MessageCell.swift */; };
 		F3F038E60EB47C1DEDAF6FC8 /* Pods_chatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09577298EEF62E2A8DB54D9C /* Pods_chatUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 		A22C5A2320489687003A429C /* chatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatUITests.swift; sourceTree = "<group>"; };
 		A22C5A2520489687003A429C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A22C5A3120489803003A429C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A22C5A332049FFCE003A429C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A22C5A35204A073C003A429C /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		AED22B151C7435F3E4B89066 /* Pods-chatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chatTests/Pods-chatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD63772AB12D3A235EF9533D /* Pods-chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chat/Pods-chat.debug.xcconfig"; sourceTree = "<group>"; };
 		E2AA9C1640ECFEEC917B51EC /* Pods-chatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatUITests/Pods-chatUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				A22C5A0520489687003A429C /* ViewController.swift */,
 				A22C5A3120489803003A429C /* LoginViewController.swift */,
 				A22C5A0720489687003A429C /* Main.storyboard */,
+				A22C5A35204A073C003A429C /* MessageCell.swift */,
+				A22C5A332049FFCE003A429C /* ChatViewController.swift */,
 				A22C5A0A20489687003A429C /* Assets.xcassets */,
 				A22C5A0C20489687003A429C /* LaunchScreen.storyboard */,
 				A22C5A0F20489687003A429C /* Info.plist */,
@@ -430,11 +436,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-chat/Pods-chat-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/ParseUI/ParseUI.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParseUI.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -464,7 +472,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22C5A3220489803003A429C /* LoginViewController.swift in Sources */,
+				A22C5A36204A073C003A429C /* MessageCell.swift in Sources */,
 				A22C5A0620489687003A429C /* ViewController.swift in Sources */,
+				A22C5A342049FFCE003A429C /* ChatViewController.swift in Sources */,
 				A22C5A0420489687003A429C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

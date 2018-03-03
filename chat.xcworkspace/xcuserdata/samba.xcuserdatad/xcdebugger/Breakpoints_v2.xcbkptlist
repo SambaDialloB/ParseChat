@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "chat/ChatViewController.swift"
+            timestampString = "541750089.564764"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "chat.ChatViewController.__deallocating_deinit"
+                  moduleName = "chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samba/Documents/chat/chat/ChatViewController.swift"
+                  timestampString = "541749435.570478"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "chat.ChatViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; chat.ChatViewController"
+                  moduleName = "chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samba/Documents/chat/chat/ChatViewController.swift"
+                  timestampString = "541749435.573923"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "chat.ChatViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; chat.ChatViewController"
+                  moduleName = "chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samba/Documents/chat/chat/ChatViewController.swift"
+                  timestampString = "541749435.576484"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "chat.ChatViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;chat.ChatViewController&gt;"
+                  moduleName = "chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samba/Documents/chat/chat/ChatViewController.swift"
+                  timestampString = "541749435.5784661"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "chat.ChatViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;chat.ChatViewController&gt;"
+                  moduleName = "chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samba/Documents/chat/chat/ChatViewController.swift"
+                  timestampString = "541749435.580512"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "47">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
